@@ -124,12 +124,6 @@ class _ProfileState extends State<Profile> {
  GestureDetector boxbuild(String name, BuildContext context) {
     return GestureDetector(
       onTap: (){
-              //  Navigator.of(context).push(MaterialPageRoute(builder: (context){
-              //    return DetailPages(img: img,title: title,context: context,price: price,);
-
-              //  }
-              //  )
-              //  );
              },
           child: Padding(
             padding: const EdgeInsets.all(4.0),
@@ -140,20 +134,13 @@ class _ProfileState extends State<Profile> {
                                            decoration: BoxDecoration(
                                              color: Colors.amber[800],
                                                   borderRadius: BorderRadius.circular(20.0),
-                                                  // border: Border.all(
-                                                  //   color: Colors.white,
-                                                  //   width: 3.0
-                                                  // )
+                                         
                                                 ),
                                           //  color: Colors.white,
                                            height: 170,
                                            width: 170,
                                            child :Center(child: Text("$name",style: TextStyle(fontSize: 25),))
-                                           
-                                          //  ClipRRect(
-                                          //    borderRadius:BorderRadius.circular(25),
-                                          //    child: Image.asset(img),
-                                          //    ),
+                                          
 
                                           ),
                                           SizedBox(height:10,),
